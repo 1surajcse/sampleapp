@@ -12,7 +12,7 @@ public class SampleController {
 
     @GetMapping
     public String getData(){
-        return "Welcome to Sample app";
+        return "Welcome there";
     }
 
 }
