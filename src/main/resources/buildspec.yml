@@ -5,10 +5,10 @@ phases:
     commands:
       - echo Entering the build phase
       - mvn clean package
-    post_builds:
+    post_build:
       commands:
         -echo Build completed Successfully
 artifacts:
   files:
-    - target/aws-rds-demo.war
+    - target/aws_app.jar
   discard-paths: yes
